@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INSPEC — Soporte / Support</title>
+  <style>
+    :root {
+      --primary: #1B4F72;
+      --accent: #E67E22;
+      --text: #2C3E50;
+      --text-soft: #5D6D7E;
+      --bg: #F8F9FA;
+      --card: #FFFFFF;
+      --border: #E5E7EB;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+    }
+    .header {
+      text-align: center;
+      padding: 40px 16px 32px;
+      background: var(--card);
+      border-radius: 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      margin-bottom: 28px;
+    }
+    .header h1 {
+      color: var(--primary);
+      margin: 0 0 8px 0;
+      font-size: 30px;
+      letter-spacing: -0.3px;
+    }
+    .header .sub {
+      color: var(--text-soft);
+      font-size: 15px;
+      margin: 0;
+    }
+    .section {
+      background: var(--card);
+      padding: 28px;
+      border-radius: 14px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: var(--primary);
+      font-size: 20px;
+      margin: 0 0 12px 0;
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 8px;
+    }
+    h3 { color: var(--primary); font-size: 16px; margin: 22px 0 8px; }
+    p, li { font-size: 15px; }
+    a { color: var(--primary); }
+    .lang-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 20px 0 28px;
+    }
+    .lang-toggle a {
+      padding: 6px 16px;
+      background: var(--card);
+      color: var(--primary);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .lang-toggle a:hover { background: var(--primary); color: white; }
+    .contact-box {
+      background: linear-gradient(135deg, #1B4F72 0%, #2E86C1 100%);
+      color: white;
+      padding: 32px 28px;
+      border-radius: 14px;
+      text-align: center;
+      margin: 16px 0 24px;
+    }
+    .contact-box h3 {
+      color: white;
+      margin: 0 0 12px;
+      font-size: 22px;
+      border: none;
+      padding: 0;
+    }
+    .contact-box a {
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      padding: 16px 0;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item .q {
+      font-weight: 600;
+      color: var(--primary);
+      margin: 0 0 6px 0;
+    }
+    .faq-item .a {
+      color: var(--text-soft);
+      margin: 0;
+    }
+    .footer {
+      text-align: center;
+      color: var(--text-soft);
+      font-size: 12px;
+      margin-top: 32px;
+      padding: 16px;
+    }
+    .footer a { color: var(--text-soft); }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>INSPEC — Soporte</h1>
+    <p class="sub">Estamos para ayudarte / We're here to help</p>
+  </div>
+
+  <div class="lang-toggle">
+    <a href="#es">🇪🇸 Español</a>
+    <a href="#en">🇺🇸 English</a>
+    <a href="index.html">← Privacy Policy</a>
+  </div>
+
+  <!-- ESPAÑOL -->
+  <div id="es">
+    <div class="section">
+      <h2>¿Necesitás ayuda con INSPEC?</h2>
+      <p>INSPEC es una aplicación profesional para inspecciones de obra y generación de informes técnicos. Si tenés cualquier duda, problema técnico, sugerencia o querés reportar un bug, podés contactarnos directamente al equipo.</p>
+    </div>
+
+    <div class="contact-box">
+      <h3>📧 Contacto directo</h3>
+      <a href="mailto:sergo_999@hotmail.com">sergo_999@hotmail.com</a>
+      <p style="margin: 12px 0 0; opacity: 0.9; font-size: 13px;">
+        Respondemos en un plazo máximo de 48 horas hábiles
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Preguntas frecuentes</h2>
+
+      <div class="faq-item">
+        <p class="q">¿La app funciona sin conexión a internet?</p>
+        <p class="a">Sí. La mayoría de las funciones de INSPEC trabajan offline: tomar fotos, anotar planos, llenar checklists, generar PDFs. Solo el inicio de sesión requiere conexión.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">¿Mis datos se guardan en la nube?</p>
+        <p class="a">Los proyectos, fotos, planos y comentarios se guardan localmente en tu dispositivo. Solo los datos de tu cuenta (email, nombre, empresa) se almacenan en servidores seguros para autenticación.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">¿Cómo se hace la copia de seguridad?</p>
+        <p class="a">iOS hace backup automático de tu app si tenés activado iCloud Backup. Los archivos en la carpeta Documents de la app se incluyen en ese backup.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">¿Qué hago si la app se cierra inesperadamente?</p>
+        <p class="a">1) Cerrá la app desde el selector de apps de iOS, 2) Reabríla, 3) Si persiste, reiniciá el iPhone, 4) Si sigue, escribinos con el modelo de iPhone, versión de iOS y descripción del problema.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">¿Cómo elimino mi cuenta?</p>
+        <p class="a">Escribí a <a href="mailto:sergo_999@hotmail.com">sergo_999@hotmail.com</a> con el asunto "Eliminar cuenta" y confirmaremos la eliminación de todos tus datos en un plazo máximo de 30 días.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">¿En qué idiomas está disponible?</p>
+        <p class="a">La interfaz está disponible en español, inglés, portugués, francés y alemán. Podés cambiarla desde Perfil → Lengua.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">¿Funciona en iPad?</p>
+        <p class="a">Sí, INSPEC funciona en iPad con interfaz adaptativa.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Documentación adicional</h2>
+      <ul>
+        <li><a href="index.html">Política de Privacidad</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="en" style="margin-top: 64px;">
+    <div class="section">
+      <h2>Need help with INSPEC?</h2>
+      <p>INSPEC is a professional app for construction inspections and technical report generation. For any questions, technical issues, suggestions, or bug reports, you can contact us directly.</p>
+    </div>
+
+    <div class="contact-box">
+      <h3>📧 Direct contact</h3>
+      <a href="mailto:sergo_999@hotmail.com">sergo_999@hotmail.com</a>
+      <p style="margin: 12px 0 0; opacity: 0.9; font-size: 13px;">
+        We respond within 48 business hours
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <p class="q">Does the app work without internet?</p>
+        <p class="a">Yes. Most INSPEC features work offline: taking photos, annotating plans, filling checklists, generating PDFs. Only login requires connection.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">Is my data stored in the cloud?</p>
+        <p class="a">Projects, photos, plans, and comments are stored locally on your device. Only account data (email, name, company) is stored on secure servers for authentication.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">How is data backed up?</p>
+        <p class="a">iOS automatically backs up your app if iCloud Backup is enabled. Files in the app's Documents folder are included in that backup.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">What if the app crashes unexpectedly?</p>
+        <p class="a">1) Force-close the app from iOS app switcher, 2) Reopen it, 3) If it persists, restart your iPhone, 4) If still happening, contact us with iPhone model, iOS version, and problem description.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">How do I delete my account?</p>
+        <p class="a">Email <a href="mailto:sergo_999@hotmail.com">sergo_999@hotmail.com</a> with the subject "Delete account" and we'll confirm deletion of all your data within a maximum of 30 days.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">What languages is it available in?</p>
+        <p class="a">The interface is available in Spanish, English, Portuguese, French, and German. You can change it from Profile → Language.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="q">Does it work on iPad?</p>
+        <p class="a">Yes, INSPEC works on iPad with adaptive interface.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Additional documentation</h2>
+      <ul>
+        <li><a href="index.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2026 INSPEC Team
+  </div>
+</body>
+</html>
